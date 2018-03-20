@@ -16,7 +16,7 @@ function whileLoop(num) {
     console.log(--num)
     
   }
-  return console.log(`done`)
+  return `done`
 }
 
 function doWhileLoop(array) {
