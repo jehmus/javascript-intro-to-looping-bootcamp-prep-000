@@ -7,18 +7,22 @@ function forLoop(array) {
       array.push(`I am ${i} strange loops.`)
     }
   }
+  console.log(array)
 
   return array
 }
+
+forLoop(["sup"])
 
 function whileLoop(num) {
   while (num > 0) {
     console.log(num)
     num--
-    
   }
   return console.log(`done`)
 }
+
+whileLoop(15)
 
 function doWhileLoop(array) {
   function maybeTrue() {
@@ -31,3 +35,5 @@ function doWhileLoop(array) {
   
   return array
 }
+
+doWhileLoop(["Sup", "wow", "huge"])
