@@ -13,20 +13,21 @@ function forLoop(array) {
 
 function whileLoop(num) {
   while (num > 0) {
-    console.log(--num)
+    console.log(num)
+    num--
     
   }
-  return `done`
+  return console.log(`done)`
 }
 
 function doWhileLoop(array) {
-  function maybeTrue(){
+  function maybeTrue() {
     return Math.random() >= 0.5 
   }
   
   do {
     array.pop()
-  } while (array.length > 0 && maybeTrue());
+  } while ( array.length > 0 && maybeTrue() );
   
   return array
 }
